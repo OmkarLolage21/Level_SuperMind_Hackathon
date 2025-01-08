@@ -6,6 +6,8 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
+app.use(cors({ origin: 'https://semantic-supermind-assignment.netlify.app/' }));
+
 
 app.use(express.json());
 
