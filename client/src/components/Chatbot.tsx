@@ -41,7 +41,7 @@ const Chatbot: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true); // Theme toggle state
 
-  const expressClient = new ExpressClient('https://server-pi-nine-13.vercel.app'); // Replace with your Express backend URL
+  const expressClient = new ExpressClient('https://express-deployment-semantics.onrender.com'); // Replace with your Express backend URL
 
   const handleSend = async () => {
     if (!input.trim()) return;

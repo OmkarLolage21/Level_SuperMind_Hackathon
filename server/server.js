@@ -5,9 +5,14 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors());
-app.use(cors({ origin: 'https://semantic-supermind-assignment.netlify.app/' }));
-
+const corsOptions = {
+    origin: 'https://semantic-supermind-assignment.netlify.app',
+    methods: 'GET,POST,PUT,DELETE',
+    allowedHeaders: 'Content-Type, Authorization',
+};
+  
+  // Apply CORS middleware with options
+  app.use(cors(corsOptions));
 
 app.use(express.json());
 

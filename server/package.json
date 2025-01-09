@@ -1,5 +1,12 @@
 {
-  "dependencies": {
+  "name": "my-node-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+"dependencies": {
     "express": "^4.21.2",
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
