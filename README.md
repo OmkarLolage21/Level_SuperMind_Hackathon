@@ -1,1 +1,3 @@
-Check Deployment Here: https://semantic-supermind-assignment.netlify.app/
+Project for First Round of Level SuperMind Hackathon.
+
+We qualified for Finals :)
